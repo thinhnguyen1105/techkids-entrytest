@@ -1,0 +1,42 @@
+@font-face {
+    font-family: piron;
+    src: url(piron.TTF);
+}
+body{
+    font-family: piron;
+}
+.nav1{
+    color: red;
+}
+.headline{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 5em;
+    
+    color: #007bff;
+}
+#input-triangle{
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 10px;
+   
+}
+#rotate-triangle{
+    text-align: left;
+    margin: 0 auto;
+   margin-top: 10px;
+}
+.btn{
+    margin-top: 4px !important;
+    margin-right: 5px;
+}
+#input{
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+
+.row{
+    justify-content: center ;
+}

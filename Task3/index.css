@@ -1,0 +1,257 @@
+@font-face {
+    font-family: Averta-ExtraBold;
+    src: url(font/Averta/Averta-Extra-Bold.woff);
+}
+@font-face {
+    font-family: Averta-Black;
+    src: url(font/Averta/Averta-Black.woff);
+}
+
+@font-face {
+    font-family: Averta-Light;
+    src: url(font/Averta/Averta-Light.woff);
+}
+
+@font-face{
+    font-family: Averta-Semibold;
+    src: url(font/Averta/Averta-Semibold.woff);
+}
+body {
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+    
+    
+}
+
+.gradient{
+    background: -webkit-linear-gradient(90deg,#481d42, #a73f6e) !important;
+}
+.font-gradient{
+    background: -webkit-linear-gradient(45deg,#481d42, #a73f6e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title{
+    font-size: 178.72px;
+    font-family: Averta-Black;
+    line-height: 145.85px;
+    margin-top: 100px;
+    text-align: center;
+    
+
+}
+.sub-title{
+    font-size: 26.06px;
+    font-family: Averta-Black;
+    margin-top: 22px;
+    text-align: center;
+}
+
+
+.button-radius {
+    border-radius: 1em;
+    border: none;
+    padding: 8px 20px;
+    font-size: 11px;
+    cursor: pointer;
+    display: inline-block;
+    color: aliceblue;
+    font-family: Averta-ExtraBold;
+    margin-left: 5px;
+}
+
+.button-download{
+    width: 169px;
+    border: none;
+    margin-top:32px;
+}
+
+.button-radius:focus, .round-white-button:focus{
+    outline: none !important;
+}
+
+.round-white-button{
+    border-radius: 50%;
+    
+    outline: honeydew;
+    border: 1px solid #ffffff;
+    padding: 7px 7px;
+    font-size: 11px;
+    cursor: pointer;
+    display: inline-block;
+    background: inherit;
+    margin-left: 5px;
+    
+}
+
+
+
+#icon-facebook{
+    width: 20px;
+}
+
+
+
+#header {
+    padding: 20px 0;
+    height: 84px;
+    transition: all 0.5s;
+    z-index: 997;
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pull-left {
+    float: left;
+}
+.pull-right {
+    float: right;
+    margin-top:100px;
+    margin-bottom: 100px;
+
+}
+
+.background-gradient{
+    background: -webkit-linear-gradient(45deg,#481d42, #a73f6e);
+}
+
+.sub-title-2{
+    color: honeydew;
+    font-size: 50.38px;
+    margin-top:100px;
+    font-family: Averta-ExtraBold;
+    display: flex;
+    justify-content: space-around;
+}
+.sub-title-3{
+    color: honeydew;
+    font-size: 28.8px;
+    font-family: Averta-Light;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15px;
+}
+
+.sub-image{
+    width: 138px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+.attr-app{
+    font-family: Averta-Black;
+    color: #e2991e;
+    font-size: 26.31px;
+    text-align: center;
+    margin-top: 20px;
+    }
+.attr-sub-app{
+    font-family: Averta-Semibold;
+    color: #e2991e;
+    font-size: 11px;
+    text-align: center;
+}
+
+.table-radius{
+    background-color: white;
+    width: 251px;
+    height: 440px;
+    padding: 20px;
+    border-radius: 40px;   
+    margin-top:20px; 
+    margin-bottom:150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#phone{
+   
+    width: 63%;
+    display: block;
+    margin: 0 auto;
+}
+
+.sub-title-5{
+    font-family: Averta-Semibold;
+}
+
+.title1{
+    font-size:76.87px;
+    line-height: 88.85px;
+    font-family: Averta-Black;
+
+    margin-top: 100px;
+   
+}
+
+.screen-phone{
+    width: 50%;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+div#myCarousel{
+    width: 50%;
+    position: absolute;
+    top: 7%;
+    left: 25%;
+}
+
+#portfolio .portfolio-item {
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+    a {
+       
+        transition: 0.5s;
+    }
+
+    #footer {
+        background: #f2f5f8;
+        padding: 0 0 30px 0;
+        font-size: 14px;
+    }
+
+    #footer .copyright {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    #footer .credits {
+        text-align: center;
+        font-size: 13px;
+        color: #555;
+    }
+
+    .back-to-top {
+        position: fixed;
+        display: none;
+        background: #e2991e;
+        color: #fff;
+        padding: 6px 12px 9px 12px;
+        font-size: 16px;
+        border-radius: 2px;
+        right: 15px;
+        bottom: 15px;
+        transition: background 0.5s;
+        border: 2px solid #fff;
+    }
+    .back-to-top:hover {
+        background: #0c2e8a;
+        color: #fff;
+    }
+
+    .align-robot{
+        margin-bottom: 114px;
+    }
